@@ -3,6 +3,9 @@
 # hasNext is not available in python 
   # for this purpose, simply check if the next(iterator obj on top of stack) is available -- if not it is fully processed, so pop it
   
+# Brute Force
+  # use deque to store all flattened lists elements using recursion and then for next popleft from queue
+  
   
   # O(N) space for stack
   # Time in constructor is constant
